@@ -1,0 +1,44 @@
+body {
+background: radial-gradient(circle, rgba(41, 204, 230, 1) 0%, rgba(148, 187, 233, 1) 100%);
+height: 50vh;}
+
+.intro {
+  font-family: "Bubblegum Sans", sans-serif;
+  color: #000000;
+  text-align: center;
+  padding-top: 2vh;
+  font-size: 70px;
+  text-align: top;
+}
+
+.navbar {
+            background-color:rgba(41, 204, 230, 1) 0%, rgba(148, 187, 233, 1) 100%;
+            display: relative;
+            align-items: right;
+            justify-content: space-between;
+        }
+
+        .navbar .logo {
+            color: #fff;
+            font-size: 80vh;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .nav-links li a:hover {
+            text-decoration: underline;
+        }
