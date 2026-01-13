@@ -11,6 +11,25 @@ height: 50vh;}
   text-align: top;
 }
 
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 70px;
+}
+
+
+.caveat-regular {
+  font-family: "Caveat", cursive;
+  font-weight: 500;
+  font-style: normal;
+    text-align: center;
+    font-size: 70px;
+}
+
+
 .navbar {
             background-color:rgba(41, 204, 230, 1) 0%, rgba(148, 187, 233, 1) 100%;
             display: relative;
@@ -42,3 +61,12 @@ height: 50vh;}
         .nav-links li a:hover {
             text-decoration: underline;
         }
+
+.list-container {
+    max-width: 400px;
+    margin: left;
+    background: #088095;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+  }
