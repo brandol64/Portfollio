@@ -1,6 +1,12 @@
 body {
 background: radial-gradient(circle, rgba(41, 204, 230, 1) 0%, rgba(148, 187, 233, 1) 100%);
-height: 50vh;}
+  margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;}
+
 
 .intro {
   font-family: "Bubblegum Sans", sans-serif;
@@ -33,7 +39,7 @@ height: 50vh;}
 .navbar {
             background-color:rgba(41, 204, 230, 1) 0%, rgba(148, 187, 233, 1) 100%;
             display: relative;
-            align-items: right;
+            align-items: left;
             justify-content: space-between;
         }
 
@@ -65,9 +71,9 @@ height: 50vh;}
 .list-container {
     max-width: 400px;
     margin: left;
-    background: #088095;
+    background: #3ab4c9;
     border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 90px 10px 50px rgba(0, 0, 0, 0.08);
     padding: 20px;
   }
 
@@ -78,18 +84,25 @@ height: 50vh;}
   gap: 40px; 
 }
 
-.pic,
-.pics {
-  max-width: 45%; 
+.images {
+    display: flex;
+    gap: 20px;         
 }
 
 .about-container {
   display: flex;
-  align-items: center; /* aligns text vertically */
-  gap: 20px; /* space between image and text */
+  align-items: center; 
+  gap: 20px; 
 }
 
 .about-container img {
-  border-radius: 10px; /* optional, looks nice */
+  border-radius: 10px; 
+}
+
+.content {
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    gap: 40px;             
 }
 
